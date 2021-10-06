@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  api:
+    container_name: ecommerce_api
+    command: "python manage.py runserver 0.0.0.0:8000"
+    image: ecommerce/api:0.0.1
+    volumes:
+      - .:/code
+    ports:
+      - "8000:8000"
