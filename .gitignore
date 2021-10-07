@@ -7,11 +7,8 @@ local_settings.py
 db.sqlite3
 .idea/
 media
-inventory/static/
-inventory/inventory/settings/prod.py
 
-static_cdn/
-media_cdn/
+
 
 *.py[cod]
 *$py.class

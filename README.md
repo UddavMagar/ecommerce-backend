@@ -17,7 +17,7 @@ $ docker build -t ecommerce/api:0.0.1 .
 
 To run the project in docker
 
-    $ docker-compose up -d			#  Will create all necessary services
+    $ docker-compose up			#  Will create all necessary services
     Starting db ... done
     Starting web   ... done
     Starting worker  ... done
